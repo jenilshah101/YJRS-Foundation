@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Victim Search</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		<link rel="icon" href="images/output-onlinepngtools.png">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body style="background-color:powderblue;">
+
+		<div class="wrapper">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="images/victim.jpg" alt="victim">
+				</div>
+				
+				<form method="post" action="victimmatch.php" accept="image/gif,image/jpeg">
+					<h3>Victim Search</h3>
+					
+					<div class="form-group">
+						<input type="text" placeholder="Victim Name" name="Name" class="form-control">
+						<i class="material-icons">person</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Victim Address" name="Address" class="form-control">
+						<i class="material-icons">home</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Victim Nationality" name="Nationality" class="form-control">
+						<i class="material-icons">language</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Victim Age" name="Age" class="form-control">
+						<i class="material-icons">timelapse</i>
+					</div>
+					<div class="form-wrapper">
+						<select name="Gender" id="" class="form-control">
+							<option value="" disabled selected>Victim Gender</option>
+							<option value="male">Male</option>
+							<option value="femal">Female</option>
+							<option value="other">Other</option>
+						</select>
+						<i class="material-icons">arrow_drop_down</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Complainant Email" class="form-control">
+						<i class="material-icons">email</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Complainant Phone No" class="form-control">
+						<i class="material-icons">local_phone</i>
+					</div>
+					<button>Search
+						<i class="material-icons">navigate_next</i>
+					</button>
+				</form>
+			
+			</div>
+		</div>
+		
+	</body>
+</html>

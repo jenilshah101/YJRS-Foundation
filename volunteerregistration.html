@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Volunteer Registeration</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		<link rel="icon"  href="images/output-onlinepngtools.png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body style="background-color:powderblue;">
+
+		<div class="wrapper" >
+			<div class="inner">
+				<div class="image-holder">
+					<br><br><br><br><br><br><br><br><br><br><br><br><img src="images/vol.jpg" alt="Volunteer Image">
+				</div>
+				<form method="post" action="volunteer.php">
+					<h3>Volunteer Registeration</h3>
+					<div class="form-wrapper">	
+						<input type="text" name="Name" placeholder="Name" class="form-control" required>
+						<i class="material-icons">person</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Age" name="Age" class="form-control" required>
+						<i class="material-icons">timelapse</i>
+					</div>
+					<div class="form-wrapper">
+						<select name="Gender" id="" class="form-control" required>
+							<option value="" disabled selected>Gender</option>
+							<option value="male">Male</option>
+							<option value="femal">Female</option>
+							<option value="other">Other</option>
+						</select>
+						<i class="material-icons">arrow_drop_down</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Nationality" name="Nationality" class="form-control" required>
+						<i class="material-icons">language</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Phone No" name="Phoneno" class="form-control" required>
+						<i class="material-icons">call</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Address" name="Address" class="form-control" required>
+						<i class="material-icons">home</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="email" placeholder="Email" name="Email" class="form-control" required>
+					<i class="material-icons">email</i>
+				    </div>
+					
+					<button>Register
+						<i class="material-icons">navigate_next</i>
+					</button>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>

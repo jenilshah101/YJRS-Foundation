@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Donation Analysis</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		<link rel="icon" href="images/output-onlinepngtools.png">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body style="background-color:powderblue;">
+
+		<div class="wrapper">
+			<div class="inner">
+				<div class="image-holder">
+					<br><br><br><br><img src="images/donate.png" alt="donate">
+				</div>
+				
+				<form method="post" action="donationanalysis.php" accept="image/gif,image/jpeg" enctype="multipart/form-data">
+					<h3>Donation Analysis</h3>
+					<br><br><br><br>
+					<div class="form-group">
+						<input type="text" placeholder="Place Name" name="place" class="form-control" required>
+						<i class="material-icons">place</i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Amount" name="Amt" class="form-control" required>
+						<i class="material-icons">monetization_on</i>
+					</div>
+						<button>Submit
+						<i class="material-icons">navigate_next</i>
+						</button>
+					</div>
+				</form>
+			
+			</div>
+		</div>
+		
+	</body>
+</html>
